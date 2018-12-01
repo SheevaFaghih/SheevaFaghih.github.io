@@ -1798,7 +1798,8 @@ input, select, textarea {
 			}
 
 		header.major > p {
-			font-size: 0.7em;
+			/*font-size: 1.05em;*/
+			font-size: 1.5vh;
 			font-weight: 600;
 			letter-spacing: 0.25em;
 			margin-bottom: 0;
@@ -2750,7 +2751,9 @@ input, select, textarea {
 			}
 
 			.tiles article h3 {
-				font-size: 1.75em;
+				/* font-size: 1.75em; */
+				font-size: 3vh;
+
 			}
 
 				.tiles article h3 a:hover {
@@ -2868,7 +2871,8 @@ input, select, textarea {
 			}
 
 				.tiles article h3 {
-					font-size: 1.5em;
+					/*font-size: 1.5em;*/
+					font-size: 6vh;
 				}
 
 		}
@@ -3379,7 +3383,7 @@ input, select, textarea {
 		min-height: 22em;
 		position: relative;
 		top: -3.25em;
-		font-size: 1.5vw;
+		font-size: 1.35em;
 	}
 
 		#banner:after {
@@ -3405,7 +3409,9 @@ input, select, textarea {
 		}
 
 		#banner h1 {
-			font-size: 3.25em;
+			/*font-size: 2.25em;
+			font-size: 5em;*/
+			font-size:8em;
 		}
 
 		#banner > .inner {
@@ -3457,7 +3463,7 @@ input, select, textarea {
 				}
 
 				#banner > .inner .content p {
-					font-size: 0.7em;
+					font-size: .75em;
 					font-weight: 600;
 					letter-spacing: 0.25em;
 					text-transform: uppercase;
@@ -3579,11 +3585,11 @@ input, select, textarea {
 				min-height: 0;
 				top: -2.75em;
 			}
-
+/*
 				#banner h1 {
-					font-size: 2em;
+					font-size: 8em;
 				}
-
+*/
 				#banner > .inner .content {
 					display: block;
 				}
@@ -3738,21 +3744,31 @@ input, select, textarea {
 
 		}
 
+
+
 		.projContainer {
 			padding-top: 2%;
-			position: relative;
+
 			padding-left: 7%;
 			padding-bottom: 1%;
+
+
 		}
 
 		.projDisplay {
 			/*text-align: center;*/
+			font-size: 2em;
+			padding-right: 1%;
 
 		}
 
 		.projTextDisplay {
 			width: inherit;
 		}
+
+
+		.pdfobject-container { height: 500px;}
+		.pdfobject { border: 1px solid #666; }
 
 /* Footer */
 
@@ -3815,6 +3831,7 @@ input, select, textarea {
 			width: calc(100% - 6em);
 			margin-left: 4%;
 			margin-right: 4%;
+
 
 		}
 
