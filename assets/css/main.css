@@ -3540,8 +3540,8 @@ input, select, textarea {
 
 	.contentDesc {
 		font-size: 1.2em;
-		padding-left: 2%;
-		padding-right: 2%;
+		padding-left: 3%;
+		padding-right: 3%;
 	}
 
 	@media screen and (max-width: 900px) {
@@ -3764,7 +3764,19 @@ input, select, textarea {
 		.projTextDisplay {
 			font-size: 1.75em;
 		}
+
+		.innerPersonal {
+			margin-top:-60%;
+			font-size: .6em;
+		}
+
+		.innerPersonal h1 {
+			font-size: 8em;
+		}
+
 	}
+
+
 
 /* Main */
 
