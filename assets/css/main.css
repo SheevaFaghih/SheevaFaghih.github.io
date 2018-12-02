@@ -221,10 +221,10 @@ input, select, textarea {
 		font-size: 0.7em;
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 1200px) {
 
 		h1 {
-			font-size: 2em;
+			font-size: 4em;
 		}
 
 		h2 {
@@ -1799,7 +1799,7 @@ input, select, textarea {
 
 		header.major > p {
 			/*font-size: 1.05em;*/
-			font-size: 1.5vh;
+			font-size: 1.8vh;
 			font-weight: 600;
 			letter-spacing: 0.25em;
 			margin-bottom: 0;
@@ -2604,7 +2604,7 @@ input, select, textarea {
 				display: block;
 				height: 100%;
 				position: absolute;
-				right: 1.5em;
+				right: 0.4em;
 				top: 0;
 				vertical-align: middle;
 				width: 36px;
@@ -3411,7 +3411,7 @@ input, select, textarea {
 		#banner h1 {
 			/*font-size: 2.25em;
 			font-size: 5em;*/
-			font-size:8em;
+
 		}
 
 		#banner > .inner {
@@ -3536,6 +3536,59 @@ input, select, textarea {
 		top: 10%;
 	}
 
+	.contentDesc {
+		font-size: 1.2em;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+
+	@media screen and (max-width: 900px) {
+
+		.pic {
+
+			position: absolute !important;
+			top: 3%!important;;
+			left: 30%!important;
+			padding-top: 10% !important;
+
+		}
+
+		.profilePic{
+			border-radius: 100%;
+			margin-left: 7%;
+			margin-right: 7%;
+			opacity: 1;
+			position: relative;
+			z-index: 2;
+
+				max-width: 100%;
+				max-height: 30vh !important;;
+		     width: auto\9; /* ie8 */
+		}
+
+	}
+
+		@media screen and (max-width: 600px) {
+			.pic {
+				padding-top: 6% !important;
+				left: 20% !important;
+			}
+		}
+
+		@media screen and (max-width: 450px) {
+			.pic {
+				padding-top: 6% !important;
+				left: 15% !important;
+				width: 100%;
+				padding-bottom: 40%;
+			}
+
+			.myContainerMain {
+
+			}
+
+		}
+
 	.profilePic {
     border-radius: 100%;
 		margin-left: 7%;
@@ -3558,6 +3611,15 @@ input, select, textarea {
   height: auto;
 }
 
+.customColumnContact {
+	float: left;
+	width: 25%;
+	padding: 3%;
+	max-width: 100%;
+	height: auto;
+	font-size: 2vh;
+}
+
 /* Clear floats after image containers */
 .customRow::after {
   content: "";
@@ -3565,17 +3627,82 @@ input, select, textarea {
   display: table;
 }
 
-	.video {
+@media screen and (max-width: 950px) {
+  .customColumnContact {width: 50%;}
+}
+
+@media screen and (max-width: 485px) {
+  .customColumnContact {width: 100%;padding-top: 3%;}
+
+}
+
+
+
+
+	.myContainer div {
+		margin: 0 auto;
+		width: 80%;
 
 	}
 
-	.videoContainer {
-		align-items: center;
+	.myContainer div iframe {
+		width: 70%;
+		height: 20em;
+	}
 
+
+	@media screen and (max-width: 1000px) {
+		.myContainer div {
+			margin: 0 auto;
+			width: 80%;
+		}
+
+	.projDesc{
+		font-size: 1.5vh;
+	}
+
+	.projDesc .major{
+		font-size: 2vh;
+	}
+
+		.myContainer div iframe {
+			width: 500px;
+			height: 300px;
+		}
 
 	}
 
-		@media screen and (max-width: 736px) {
+	@media screen and (max-width: 700px) {
+		.myContainer div {
+			margin: 0 auto;
+			width: 80%;
+
+		}
+
+		.myContainer div iframe {
+			width: 80%;
+			height: 300px;
+		}
+
+	}
+
+@media screen and (max-width: 1200px) {
+	#wrapper > * > .inner {
+
+
+		margin: 0 auto;
+		max-width: 65em;
+		width: calc(100% - 6em);
+		margin-left: 4%;
+		margin-right: 4%;
+
+	}
+}
+
+
+
+
+		@media screen and (max-width: 1200px) {
 
 			#banner {
 				padding: 5em 0 1em 0 ;
@@ -3597,6 +3724,7 @@ input, select, textarea {
 					#banner > .inner .content > * {
 						margin-right: 0;
 						margin-bottom: 2em;
+						font-size: .5em !important;
 					}
 
 				#banner.major {
@@ -3834,17 +3962,29 @@ input, select, textarea {
 
 
 		}
+		html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
-			@media screen and (max-width: 736px) {
+			@media screen and (max-width: 900px) {
 
 				#wrapper > * > .inner {
-					padding: 3em 0 1em 0 ;
-					width: calc(100% - 3em);
+				padding: 3em 0 1em 0 ;
+					width: calc(100% - 1em);
+					padding-top: 50%!important;
+					font-size: 1.25em;
+				}
+				header.major {
+					font-size: .25em!important;
+				}
+				ul.actions li {
+					font-size: 1.25em!important;
 				}
 
 			}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 900px) {
 
 			#wrapper {
 				padding-top: 2.75em;
