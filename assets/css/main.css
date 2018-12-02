@@ -3160,6 +3160,8 @@ input, select, textarea {
 			flex-grow: 1;
 			height: inherit;
 			line-height: inherit;
+			padding-right: 3%;
+			padding-top: 3%;
 		}
 
 			#header nav a {
