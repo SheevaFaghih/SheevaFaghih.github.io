@@ -3269,6 +3269,10 @@ input, select, textarea {
 				color: #87c5a4;
 			}
 
+			#header.alt.style8 .logo strong {
+				color: #995D81;
+			}
+
 		body.is-preload #header.alt {
 			opacity: 0;
 		}
@@ -3496,6 +3500,9 @@ input, select, textarea {
 		#banner.style4:after {
 			background-color: #FFC857;
 		}
+		#banner.style8:after {
+			background-color: #995D81;
+		}
 
 /*
 		#banner.style5:after {
@@ -3647,7 +3654,19 @@ input, select, textarea {
 
 	}
 
+	.myContainerVideo div {
+		padding-top: 10%;
+		padding-bottom: 10%;
+		margin: 0 auto;
+		width: 80%;
+
+	}
+
 	.myContainer div iframe {
+		width: 70%;
+		height: 20em;
+	}
+	.myContainerVideo div iframe {
 		width: 70%;
 		height: 20em;
 	}
@@ -3655,6 +3674,12 @@ input, select, textarea {
 
 	@media screen and (max-width: 1000px) {
 		.myContainer div {
+			margin: 0 auto;
+			width: 80%;
+		}
+		.myContainerVideo div {
+			padding-top: 10%;
+			padding-bottom: 10%;
 			margin: 0 auto;
 			width: 80%;
 		}
@@ -3672,6 +3697,11 @@ input, select, textarea {
 			height: 300px;
 		}
 
+		.myContainerVideo div iframe {
+			width: 500px;
+			height: 300px;
+		}
+
 	}
 
 	@media screen and (max-width: 700px) {
@@ -3681,7 +3711,20 @@ input, select, textarea {
 
 		}
 
+		.myContainerVideo div {
+			padding-top: 10%;
+			padding-bottom: 10%;
+			margin: 0 auto;
+			width: 80%;
+
+		}
+
 		.myContainer div iframe {
+			width: 80%;
+			height: 300px;
+		}
+
+		.myContainerVideo div iframe {
 			width: 80%;
 			height: 300px;
 		}
